@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46ccd210-4955-4a71-9d55-2dbe957fd237" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vmpDsspvQtBuO1mjo7HoBXZYQS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\harma\Desktop\Maven_Automation_2021\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ActionItem4_using_try_catch">
+    <configuration name="ActionItem4_using_try_catch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8_080121.ActionItem4_using_try_catch" />
+      <module name="Maven_Automation_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8_080121.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayList_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day7_07_31_21.ArrayList_Example" />
+      <module name="Maven_Automation_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day7_07_31_21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Handling_Tabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day7_07_31_21.Handling_Tabs" />
+      <module name="Maven_Automation_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day7_07_31_21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mouse_Actions_USPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8_080121.Mouse_Actions_USPS" />
+      <module name="Maven_Automation_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8_080121.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="try_catch_exeption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8_080121.try_catch_exeption" />
+      <module name="Maven_Automation_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8_080121.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ActionItem4_using_try_catch" />
+        <item itemvalue="Application.Mouse_Actions_USPS" />
+        <item itemvalue="Application.try_catch_exeption" />
+        <item itemvalue="Application.Handling_Tabs" />
+        <item itemvalue="Application.ArrayList_Example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46ccd210-4955-4a71-9d55-2dbe957fd237" name="Default Changelist" comment="" />
+      <created>1627177003294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627177003294</updated>
+    </task>
+    <servers />
+  </component>
+</project>
