@@ -180,8 +180,40 @@ public class Reusable_Methods {
         }
     }//end of verifyStatusOfCheckbox
 
-
     //slider by SendKeys method
+    public static void sliderSendKeysMethod(WebDriver driver, String xpath, int resetPoint, String desiredPoint, String elementName) throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+
+        try {
+            //storing the WebElement as a variable
+            WebElement slider = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+
+            //calling mouse action to click on the slider
+            Actions action = new Actions(driver);
+            action.click(slider).build().perform();
+            Thread.sleep(1500);
+
+            //reset loop
+            for (int i = 0; i < resetPoint; i++) {
+                action.sendKeys(Keys.ARROW_LEFT).build().perform();
+            }//end of reset
+            Thread.sleep(1500);
+
+            //desired loop
+            //converting String desiredPoint to integer so I can use it on for loop
+            int intDesiredPoint = Integer.parseInt(desiredPoint);
+            for (int i = 0; i < intDesiredPoint; i++) {
+                action.sendKeys(Keys.ARROW_RIGHT).build().perform();
+            }//end of desired
+            Thread.sleep(1500);
+
+        } catch (Exception e) {
+            System.out.println("Unable to move the slider " + elementName + " " + e);
+
+        }//end of slider by SendKeys method
+    }//end of slider method
+
+    /*slider by SendKeys method
     public static void sliderSendKeysMethod(WebDriver driver, String xpath, int resetPoint, String desiredPoint, String elementName) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, 15);
 
@@ -218,7 +250,7 @@ public class Reusable_Methods {
         }//end of slider by SendKeys method
 
     }//end of slider method
-
+*/
 }//end of reusable method
 
 
